@@ -7,13 +7,16 @@
 		font-size: 16px;
 	}
 
-	main {
-		margin: 0;
+	#main {
+		margin-right: 0px;
+		margin-left: 0px;
+		margin-bottom: 0px;
+		margin-top: 0px;
 	}
 
 	.container-fluid {
-		margin-top: 0;
-		margin-bottom: 0;
+		margin-top: 0px;
+		margin-bottom: 0px;
 	}
 
 	#tag_line {
@@ -21,8 +24,8 @@
 	}
 
 	nav ul {
-		padding: 0;
-		margin: 0;
+		padding: 0px;
+		margin: 0px;
 	}
 
 	nav li {
@@ -42,6 +45,43 @@
 }
 
 @media screen and (min-width: 992px) {
+	body {
+		background-image: url(../img/background.jpg);
+		background-attachment: fixed;
+	}
+
+	.container-fluid {
+		margin-left: 30%; 
+		margin-top: 20px;
+		margin-right: 20px;
+		margin-bottom: 20px; 
+	}
+
+	nav {
+		position: absolute;
+		top: 10px;
+		right: 10px;
+
+	}
+
+		nav ul {
+		padding: 0px;
+		margin: 0px;
+	}
+
+	nav li {
+		list-style-type: none;
+		display: inline-block;
+		margin-right: 1em;
+	}
+
+	nav a {
+		color: #55E;
+	}
+
+	nav a:focus {
+		color: #00E;
+	}
 
 }
 
@@ -52,9 +92,7 @@ body {
 	font-family: 'Lato', 'Helvetica Neue', 'Helvetica', 'sans-serif';
 	font-size: 18px;
 	font-weight: 300;
-	background-image: url(../img/background.jpg);
 	background-size: 100% 100%;
-	background-attachment: fixed;
 
 }
 
@@ -91,11 +129,7 @@ dd {
 	margin: 0;
 }
 
-main {
-	margin-left: 30%; 
-	margin-top: 20px;
-	margin-right: 20px;
-	margin-bottom: 20px;
+#main {
 	background-image: url(../img/ricepaper_v3.png);
 	opacity: 0.9;
 }
@@ -124,7 +158,7 @@ h2 {
 	font-weight: 300;
 	color: #505050;
 	font-size: 150%
-	margin: 0;
+	margin: 0px;
 }
 
 h3 {
