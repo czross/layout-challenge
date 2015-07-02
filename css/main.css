@@ -35,9 +35,19 @@ body {
 		margin: 0px;
 	}
 
-	nav li {
-
+	nav {
+		position: relative;
 	}
+
+}
+
+@media screen and (min-width: 992px) {
+	nav {
+	margin-right: 1em;
+	top: 0px;
+	right: 10px;
+	position: absolute;
+}
 
 }
 
@@ -136,6 +146,14 @@ input:focus {
 
 nav li {
 	display: inline-block;
+}
+
+nav a {
+	color: #55E;
+}
+
+nav a:focus {
+	color: #00E;
 }
 
 ul {
