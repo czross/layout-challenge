@@ -1,5 +1,14 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:300);
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400);
+body {
+	font-family: 'Lato', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+	font-size: 18px;
+	font-weight: 300;
+	background-image: url(../img/background.jpg);
+	background-size: 100% 100%;
+	background-attachment: fixed;
+
+}
 
 @media screen and (max-width: 992px) {
 	body {
@@ -7,16 +16,14 @@
 		font-size: 16px;
 	}
 
-	#main {
-		margin-right: 0px;
-		margin-left: 0px;
-		margin-bottom: 0px;
-		margin-top: 0px;
+	main {
+		margin: 0px !important;
+
 	}
 
 	.container-fluid {
 		margin-top: 0px;
-		margin-bottom: 0px;
+		margin-bottom: 0px; 
 	}
 
 	#tag_line {
@@ -29,70 +36,8 @@
 	}
 
 	nav li {
-		list-style-type: none;
-		display: inline-block;
-		margin-right: 1em;
-	}
-
-	nav a {
-		color: #55E;
-	}
-
-	nav a:focus {
-		color: #00E;
-	}
-
-}
-
-@media screen and (min-width: 992px) {
-	body {
-		background-image: url(../img/background.jpg);
-		background-attachment: fixed;
-	}
-
-	.container-fluid {
-		margin-left: 30%; 
-		margin-top: 20px;
-		margin-right: 20px;
-		margin-bottom: 20px; 
-	}
-
-	nav {
-		position: absolute;
-		top: 10px;
-		right: 10px;
 
 	}
-
-		nav ul {
-		padding: 0px;
-		margin: 0px;
-	}
-
-	nav li {
-		list-style-type: none;
-		display: inline-block;
-		margin-right: 1em;
-	}
-
-	nav a {
-		color: #55E;
-	}
-
-	nav a:focus {
-		color: #00E;
-	}
-
-}
-
-
-
-
-body {
-	font-family: 'Lato', 'Helvetica Neue', 'Helvetica', 'sans-serif';
-	font-size: 18px;
-	font-weight: 300;
-	background-size: 100% 100%;
 
 }
 
@@ -130,6 +75,10 @@ dd {
 }
 
 #main {
+	margin-left: 30%; 
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
 	background-image: url(../img/ricepaper_v3.png);
 	opacity: 0.9;
 }
@@ -150,7 +99,7 @@ h1 {
 	font-family: 'Raleway', 'Helvetica Neue', 'Helvetica', 'sans-serif';
 	font-weight: 300;
 	font-size: 300%;
-	margin: 0;
+	margin: 0px;
 }
 
 h2 {
@@ -183,4 +132,12 @@ a:hover {
 
 input:focus {
 	color: #0000EE;
+}
+
+nav li {
+	display: inline-block;
+}
+
+ul {
+	list-style-type: none;
 }
